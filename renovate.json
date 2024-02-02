@@ -72,8 +72,8 @@
       "matchStringsStrategy": "recursive",
       "matchStrings": [
         "charts:(.|\n)*?(^\\s{4}[\\w:]+|\n$|^\\s{2}-)",
-        " - name:(.|\n)*? - name:",
-        "- name: (?<depName>.+)(.|\n)*?url: (?<registryUrl>.+)(.|\n)*?version: (?<currentValue>.+)"
+        "name:(.|\n)*?(^\\s{4}- |^\\s{4}[\\w:]+|\n$|^\\s{2}-)",
+        "name: (?<depName>.+)(.|\n)*?url: (?<registryUrl>.+)(.|\n)*?version: (?<currentValue>.+)"
       ],
       "datasourceTemplate": "helm"
     },
@@ -84,8 +84,8 @@
       "matchStringsStrategy": "recursive",
       "matchStrings": [
         "charts:(.|\n)*?(^\\s{4}[\\w:]+|\n$|^\\s{2}-)",
-        " - name:(.|\n)*? - name:",
-        "- name: (?<depName>.+)(.|\n)*?version: (?<currentValue>.+)(.|\n)*?url: (?<registryUrl>.+)"
+        "name:(.|\n)*?(^\\s{4}- |^\\s{4}[\\w:]+|\n$|^\\s{2}-)",
+        "name: (?<depName>.+)(.|\n)*?version: (?<currentValue>.+)(.|\n)*?url: (?<registryUrl>.+)"
       ],
       "datasourceTemplate": "helm"
     }
