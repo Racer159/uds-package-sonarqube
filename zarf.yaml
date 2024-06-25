@@ -76,7 +76,7 @@ components:
     - name: sonarqube
       #helm repo add sonarqube https://SonarSource.github.io/helm-chart-sonarqube
       #helm search repo sonarqube/sonarqube -l
-      version: 8.0.3+2010
+      version: 8.0.6+3020
       namespace: sonarqube
       url: https://SonarSource.github.io/helm-chart-sonarqube
       repoName: sonarqube
