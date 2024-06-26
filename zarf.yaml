@@ -55,7 +55,7 @@ components:
       namespace: sonarqube
       url: https://repo1.dso.mil/big-bang/product/packages/sonarqube.git
       gitPath: chart
-      version: "8.0.3-bb.0"
+      version: "8.0.5-bb.0"
       valuesFiles:
         - values/sonarqube-values.yaml
     images:
