@@ -7,4 +7,4 @@ initContainers:
 
 prometheusExporter:
   # renovate: image=amazon/aws-cli
-  image: registry1.dso.mil/ironbank/big-bang/base:2.1.0
+  image: registry1.dso.mil/ironbank/big-bang/base:2.18.14
