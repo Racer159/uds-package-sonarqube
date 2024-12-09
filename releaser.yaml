@@ -3,7 +3,7 @@
 
 flavors:
   - name: upstream
-    # renovate: datasource=docker depName=sonarqube versioning=regex:^(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-uds\.(?<build>\d+)$ extractVersion=^(?<version>\d+\.\d+\.\d+)-community$
+    # renovate: datasource=docker depName=sonarqube versioning=regex:^(?<major>\d+)\.(?<minor>\d+)\.(?<patch>\d+)-uds\.(?<build>\d+)$ extractVersion=^(?<version>\d+\.\d+\.\d+)(-community)?$
     version: 10.6.0-uds.4
   - name: registry1
     # renovate: datasource=docker depName=registry1.dso.mil/ironbank/sonarsource/sonarqube/sonarqube extractVersion=^(?<version>\d+\.\d+\.\d+)-(community|uds\.\d+)$
